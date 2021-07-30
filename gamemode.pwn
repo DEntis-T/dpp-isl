@@ -1,10 +1,14 @@
 #include <dpp.a>
 
+rem:: Comment:<Variables>;
+
 var::{variable}<[MAX_PLAYERS]>;
 
 var::{stock script}<=1>;
 
 var::{stock k=1, l = 4, h=9}<+4>;
+
+rem:: Comment:<Functions>;
 
 decl:: Function:{stock main}(args:[])
 do..
